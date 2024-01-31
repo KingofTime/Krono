@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "krono"
+version = "0.1.0"
+description = "Tool to help manipulate dates and intervals"
+authors = ["Kingoftime <antonio_neto77@hotmail.com.br>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
