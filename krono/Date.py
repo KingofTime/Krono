@@ -1,11 +1,11 @@
-from krono.helpers import check_date_fields
+from krono.helpers import check_date_elements
 
 class Date:
     _DEFAULT_PATTERN="%Y-%m-%d"
     _DELIMITERS = ["-", "/", ":", " "]
     
     def __new__(cls, year: int, month: int, day: int):
-        check_date_fields(year, month, day)
+        check_date_elements(year, month, day)
         
         self = object.__new__(cls)
         self._year = year

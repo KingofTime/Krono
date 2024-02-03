@@ -1,6 +1,6 @@
 from krono.constants import MIN_YEAR, MAX_YEAR, DAYS_OF_MONTHS
 
-def check_date_fields(year: int, month: int, day: int):
+def check_date_elements(year: int, month: int, day: int):
     if year < MIN_YEAR or year > MAX_YEAR:
         raise ValueError("The year value is incorrect")
     
