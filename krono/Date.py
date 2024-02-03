@@ -1,4 +1,4 @@
-from .helpers import check_date_fields
+from krono.helpers import check_date_fields
 
 class Date:
     _DEFAULT_PATTERN="%Y-%m-%d"

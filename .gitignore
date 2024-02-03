@@ -1,3 +1,4 @@
 labs/
 .hypothesis/
 __pycache__
+poetry.lock
